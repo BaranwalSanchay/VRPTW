@@ -5,14 +5,18 @@ A take on Modified Vehicle Routing Problem with Time Windows and its application
 <br>
 <br>
 This project was created as an end-term submission for course : Operations Research Lab at IIT Kharagpur during second year of undergraduation.
-<hr><h2>Abstract</h2>
-The project looks at the attempt to present an optimized method of freight transportation over a large scale. Several assumptions have been made which are enlisted in the contents of the repository. The mathematical formulation is provided, and the code has been executed through the IBM CPLEX Solver. The implementation of Modified-Vehicle Routing Problem with Time Windows (MVRP-TW) methodology in optimizing freight transportation routes within Indian Railways. Through strategic planning and algorithmic application, this approach orchestrates the movement of multiple vehicles to serve customers efficiently while adhering to time constraints and optimizing route efficiency. The mathematical model has been thoroughly discussed along with the assumptions and notations used. The report mentions the references and code snippets towards the end for the viewers’ reference.
+<h2>Abstract</h2>
+The project looks at the attempt to present an optimized method of freight transportation over a large scale. Several assumptions have been made which are enlisted in the contents of the repository. The mathematical formulation is provided, and the code has been executed through the IBM CPLEX Solver. The implementation of Modified-Vehicle Routing Problem with Time Windows (MVRP-TW) methodology in optimizing freight transportation routes within Indian Railways. 
+<br>
+<br>
+Through strategic planning and algorithmic application, this approach orchestrates the movement of multiple vehicles to serve customers efficiently while adhering to time constraints and optimizing route efficiency. The mathematical model has been thoroughly discussed along with the assumptions and notations used. The report mentions the references and code snippets towards the end for the viewers’ reference.
 
 <h2>Introduction</h2>
 Indian Railways, a vast railway network, faces significant hurdles in optimizing transportation operations, particularly in route and schedule management for efficient goods delivery. This project delves into solving the Modified Vehicle Routing Problem (MVRP), customized for Indian Railways' freight logistics, with a key modification reflecting real-life railway scenarios. 
 <br>
 <br>
 Traditionally, in vehicle routing problems, the input and output nodes are typically the same. However, to better mimic real-world railway operations, we've introduced a distinction between the initial depot, where goods are loaded onto trains, and the final depot, where trains conclude their service after completing deliveries across the network. This adjustment mirrors the operational reality of railways, enhancing the problem's relevance to freight logistics.
+<br>
 <br>
 Leveraging IBM CPLEX Solver, we've implemented an algorithm to tackle this intricate problem within Indian Railways' expansive network.
 
@@ -40,9 +44,9 @@ This optimization endeavour has yielded substantial benefits, including minimize
 
 <h2>Repository Guide</h2>
 <ul>
-<li><b>Project_PPT: </b>This file contains a description used for presentation purposes. It provides a thorough overview of the project's key aspects, including the problem statement, methodology, and results.</li>
-<li><b>Project_Report: </b>This file contains a brief summary of the project including the references, and procedure. It gives a detailed description for better understanding.</li>
-<li><b>Project_MOD: </b>This file contains the code for the project, defining the optimization model using the Programming Framework.</li>
+<li><b>Project_PPT: </b>This file contains a description used for presentation purposes. It provides a thorough overview of the project's key aspects, including the problem statement, methodology, and results.</li><br>
+<li><b>Project_Report: </b>This file contains a brief summary of the project including the references, and procedure. It gives a detailed description for better understanding.</li><br>
+<li><b>Project_MOD: </b>This file contains the code for the project, defining the optimization model using the Programming Framework.</li><br>
 <li><b>Project_DAT: </b>This file contains the test data required for the model.</li>
 </ul>
 
